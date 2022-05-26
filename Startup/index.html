@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container1">
+        <h1>StartUp</h1>
+
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="startup.html">Storys</a>
+            <a href="local.html">Local storys</a>
+            <a href="tips.html">Tips</a>
+            <a href="references.html">References</a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="startup.html">Storys</a>
+            <a class="active" href="local.html">Local storys</a>
+            <a href="tips.html">Tips</a>
+            <a href="references.html">References</a>
+        </div>
+
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+
+
+        <div class="start">
+            <h2>What is a StartUp?</h2>
+            <img class="image" src="/assets/images/img1.jpg" alt="image" width="100%" height="auto">
+            <div class="middle">
+                <div class="text">Welcome!</div>
+            </div>
+        </div>
+        <div class="about">
+            <h3>About</h3>
+            <p>A startup company, or simply a startup, refers to a business within its early phases of development.
+                One or more entrepreneurs form a startup to develop an idea to a product or service for which they
+                believe there
+                is a future.
+                Because startups typically begin with high costs and minimal income, these companies usually grow in one
+                of two
+                ways: investor-funded or debt-funded.</p>
+        </div>
+        <div class="refrences">
+            <h6>References</h6>
+            <ul>
+                <li>What is a Startup Company? - Definition | Meaning | Example. (n.d.). My Accounting Course.
+                    https:// www.myaccountingcourse.com/ accounting-dictionary/startup-company</li>
+                <li>(2021). Regimentjobs.com. https:// regimentjobs.com/wp-content/uploads/2017/06/img_08.jpg</li>
+            </ul>
+
+
+        </div>
+        <div class="footer">
+            <p>Project 3 &copy; created by Matea Boderistanac</p>
+        </div>
+    </div>
+</body>
+
+</html>

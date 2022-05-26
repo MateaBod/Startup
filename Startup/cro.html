@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ww</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container2">
+
+        <div class="topnav2">
+            <a href="index.html">Home</a>
+            <a href="startup.html">Storys</a>
+            <a class="active" href="local.html">Local storys</a>
+            <a href="tips.html">Tips</a>
+            <a href="references.html">References</a>
+
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="startup.html">Storys</a>
+            <a class="active" href="local.html">Local storys</a>
+            <a href="tips.html">Tips</a>
+            <a href="references.html">References</a>
+        </div>
+
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+
+        <div class="h">
+            <h4>StartUp storys</h4>
+            <p>Some beginnig storys about worldwide famous companys.</p>
+        </div>
+        <div class="story">
+
+            <img id="img1" src="/assets/images/airbnb.png" alt="AirBnB"
+                width="100px" height="auto">
+
+            <div id="p1">
+                <h5>AirBnB</h5>
+                <p>This is a story of three men who grew their business from renting mattresses to a $10 billion
+                    company.
+                    Designers Brian Chesky and Joe Gebbia couldn't afford their San Francisco apartment rent in 2007.
+                    Because the city's hotels were all booked up for a design conference in San Francisco, they came up
+                    with the idea of renting out three airbeds on their living room floor and cooking breakfast for
+                    their visitors.
+                    They created a simple blog and rented to three people (two men and one woman) for $80 each.
+                    They contacted Nathan Blecharczyk, a former flatmate and computer science graduate, to construct the
+                    website and join the firm after a little success and product market fit.</p>
+            </div>
+
+            <img id="img2" src="/assets/images/facebook.png"
+                alt="Facebook" width="140px" height="auto">
+
+            <div id="p2">
+                <h5>Facebook</h5>
+                <p>Mark Zuckerberg, a 19-year-old Harvard sophomore, developed an internal social networking site for
+                    Harvard students.
+                    The site quickly grew in popularity among students, and it began to spread its reach to other
+                    campuses.
+                    The site relocated to Palo Alto, California, in 2004 and received its first investment from PayPal
+                    co-founder Peter Thiel.
+                    Shortly after it was one of the most popular social media and it still is today.</p>
+            </div>
+
+            <img id="img3" src="/assets/images/Uber.png" alt="Uber"
+                width="100px" height="auto">
+
+
+            <div id="p3">
+                <h5>Uber</h5>
+                <p>Travis Kalanick and Garrett Camp were grumbling about the numerous horrible things we all have to
+                    deal with in
+                    life after a conference in Paris, including finding a cab. The two were already brainstorming ways
+                    to discover cars at the right place,
+                    in the right time, the next thing you know an app called Uber was developed and it conquered the
+                    market.</p>
+            </div>
+            <div id="img4">
+                <img src="/assets/images/snapchat.jpg" alt="Snapchat"
+                    width="100px" height="auto">
+            </div>
+
+            <div id="p4">
+                <h5>Snapchat</h5>
+                <p>Three college friends, Evan Spiegel, Reggie Brown, and Bobby Murphy, were putting their
+                    entrepreneurial skills to the test. "I wish these images I'm sending this girl would disappear,"
+                    Reggie commented casually during a conversation.
+                    Evan referred to it as a'million dollar idea' shortly after. They worked on the app for a while
+                    before
+                    launching it under the name Picaboo. However, following a fight with Reggie, Evan and Bobby asked
+                    him to
+                    leave and renamed the company Snapchat.</p>
+            </div>
+        </div>
+
+        <div class="refrences">
+            <h6>References</h6>
+            <ul>
+                <li><em>Airbnb logo.</em> (2018). [Illustration]. https:// i.pinimg.com/originals/5b/79/a5/
+                    5b79a5dfc44312 c61e10d0044ffb4323.png</li>
+                <li><em>Facebook logo.</em> (2020).
+                    [Illustration].https:// www.shareicon.net/data/ 2048x2048/2016/07/ 14/607478_facebook_4096x4096.png
+                </li>
+                <li><em>Uber logo.</em> (2018). [Illustration].
+                    https:// upload.wikimedia.org/wikipedia /commons/c/cc/ Uber_logo_2018.png</li>
+                <li><em>Snapchat logo.</em> (2021). [Illustration]. https://
+                    image.similarpng.com/very-thumbnail/2021/01/
+                    Black-Snapcaht-icon-illustration-on -transparent-background-PNG.png</li>
+                <li>Shah, N. (2021, December 7). <em>Inside Story of the 10 Most Successful Startups.</em> https:
+                    //arkenea.com/blog/how-successful-startups-started/</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>Project 3 &copy; created by Matea Boderistanac</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
